@@ -1,0 +1,22 @@
+Learning Rust Programming Language:
+----------------------------------
+- Notes that accompany following this tutorial
+    - https://doc.rust-lang.org/stable/book
+- println is implemented as a macro in rust
+    - macros are called like functions with a ! after the name
+    - why this is implemented as a macro is an advanced topic
+    - Rust macros are different from C macros
+        - used for meta-programming
+- Cargo
+    - build system and depedency management
+    - make a src folder
+    - Note that since we're creating an executable, we used
+      main.rs. If we want to make a library instead, we should use lib.rs 
+    - cargo build
+        - ./target/debug/hello_world
+    - cargo run
+    - cargo build --release
+        - build with optimizations
+        - adds new file: Cargo.lock
+            - for depedency tracking
+    - 
